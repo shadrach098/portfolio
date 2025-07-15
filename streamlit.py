@@ -5,7 +5,7 @@ from datetime import datetime
 import time,os
 import streamlit as st
 
-from scipy.io.wavfile import write
+
 def typewriter(text: str):
     """
     Simulates a typewriter effect for displaying text character by character.
