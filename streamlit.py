@@ -4,7 +4,7 @@ import requests,base64
 from datetime import datetime
 import time,os
 import streamlit as st
-import sounddevice as sd
+
 from scipy.io.wavfile import write
 def typewriter(text: str):
     """
